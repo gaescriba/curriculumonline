@@ -1,3 +1,14 @@
-header {
-	background: pink !important;
+/*reglas: son lo que contiene lo de abajo
+selectores: son lo que identifica elementos exclusivos de HTML (sea 1 o n)
+
+declaraciones: ;
+propiedades
+valores*/
+header{
+	background: #2B0F9E
 }
+/*selector de etiqueta header--section--article--and so on */
+body header dir nav ol li a{
+	background: #09B900 ;
+}
+/*selector descendente*/
