@@ -4,13 +4,21 @@ declaraciones: es la forma de declarar un selector
 propiedades: es, dentro del selector, lo que se va a trabajar
 valores*/
 header{
-	background: #2B0F9E;
-	color: pink;
+	background: #FFFFFF;
+	color: black;
 }
 /*selector de etiqueta header--section--article--and so on */
 body {
-	background: #09B900 ;
+	background: #FFFFFF ;
+	font-family: 'JetBrains Mono';
 }
 /*selector descendente body header dir nav ol li a{}*/
 /*selector de clase(.) .portafolio*/
 /*selector de id #portafolio*/
+h1{
+	font-size: 40px;
+	line-height: 150%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
