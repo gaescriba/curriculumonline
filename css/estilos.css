@@ -17,8 +17,14 @@ body {
 /*selector de id #portafolio*/
 h1{
 	font-size: 40px;
-	line-height: 150%;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	text-decoration: underline;
+	line-height: 130%;
+	/*letter-spacing: px;*/
+	/*text-transform: uppercase;*/
+}
+.project-details{
+	width: 500px;
+	height: 200px;
+}
+.hero{
+	height: 300px;
 }
