@@ -38,6 +38,15 @@ h1 strong {
 	background-repeat: no-repeat;
 	background-position-x: right;
 }
+.project{
+	/*border-top:10px solid red;
+	border-right:10px solid green;
+	border-left:10px solid blue;
+	border-bottom:10px solid yellow;*/
+	border: 1px solid grey;
+	border-radius: 10px;
+
+}
 .project-details{
 	width: 500px;
 	height: 200px;
