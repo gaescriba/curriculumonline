@@ -7,20 +7,18 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<style type="text/css">
 		header {
-			¿
+			
 		}
 		
 	</style>
 </head>
 <body>
-	<header class ="header" style="">
-		<div>
-			<figure class="logo">
-				<img src ="images/images.jpg"alt="ahi es donde te equivocas">
-			</figure>
-		</div>
+	<header class ="header" style="">		
+		<figure class="logo">
+			<!-- <img src ="images/images.jpg"alt="ahi es donde te equivocas">-->
+		</figure>		
 		<nav class = "menu">
-			<ol>
+			<ol id="olMargin">
 				<li>
 					<a class="link" href="#portafolio">Portafolio</a>
 				</li>
@@ -28,20 +26,17 @@
 					<a class="link" href="#experiencia">Experiencia</a>
 				</li>
 				<li>
-					<a class="link" href="#contacto">Trabajemos juntos</a>
+					<a class="link" href="#contacto">Trabajemos juntos!</a>
 				</li>
 			</ol>
 		</nav>	
 	</header>
 	<section class="hero">
 		<h1>
-			Hola! Soy <strong>Gabriel Escribá</strong><br/>Desarrollador en <strong>Java y Python</strong><br/> Apegado al <strong>lifelong learning</strong>
+			Hola! Soy <strong>Gabriel Escribá</strong><br/><strong>Fullstack designer</strong><br/> Apegado al <strong>lifelong learning</strong>
 		</h1>
 		<!--<img src="images/hero.jpg"alt="Pon la imagen hero aquí" width="300" height="300">-->
 
-	</section>
-	<section>
-		seccion principal
 	</section>
 	<section id="portafolio" class="portfolio">
 		<h2>
@@ -59,41 +54,50 @@
 					<small><strong>Fecha:</strong> PON LA FECHA CUÁNDO LO TERMINES</small>
 				</p>
 				<p>
-					Lo estás viendo ahora mismo! Vive dentro de internet gracias a GitHub Pages y documenta mi aprendizaje en el uso de HTML y CSS
-				</p>
-				<p class="project-url">
-					<small><strong>Puedes acceder al repositorio en:</strong> https://github.com/gaescriba/curriculumonline</small>
+					Lo estás viendo ahora mismo! Vive dentro de internet gracias a GitHub Pages y documenta mi aprendizaje en el uso de HTML y CSS</br>
+					Puedes acceder al repositorio en: https://github.com/gaescriba/curriculumonline
 				</p>
 			</div>
 		</article>
 	</section>
 	<section id="experiencia">
-		<h2>
+		<h2 class="h2P">
 			Resumen de mi experiencia laboral
 		</h2>
 		<article>
 			<figure class="project-imageContainer">
 				<img class="project-image" src="images/Everis_-Hub-1.jpg"alt="Pon una foto bonita del centro" width="500">
 			</figure>
-			<h3>
-				everis Centers Temuco, Chile
-			</h3>
-			<a>una gran empresa que funciona tanto cómo una consulora y cómo una desarrolladora de productos empresariales, dónde la gente tiene un corazón enorme y siempre está dispuesta a enseñarte lo que no sepas</a>
+			<div class="everisDiv">
+				<h3>
+					everis Centers Temuco, Chile
+				</h3>
+				<a>una gran empresa que funciona tanto cómo una consulora y cómo una desarrolladora de productos empresariales, dónde la gente tiene un corazón enorme y siempre está dispuesta a enseñarte lo que no sepas</a>
+			</div>
 		</article>
 	</section>
-	<section id="contacto">
+	<section id="contacto" class="contacto">
 		<form action= "email" class="form-email">
 			<h3>
 				Creemos algo juntos!
 			</h3>
-			<input type="text" placeholder="Dejame tu email"id="email">
-			<button>
-				Enviar
-			</button>
+			<div class="enviarCorreo">
+				<input type="text" placeholder="Dejame tu email"id="email">
+				<button>
+					Enviar
+				</button>
+			</div>
 		</form>
 	</section>
 	<footer class="footer">
-		
+		<div>
+			<p>
+				
+			</p>
+		</div>
+		<div>
+			
+		</div>
 	</footer> 
 </body>
 </html>
