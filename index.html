@@ -2,15 +2,12 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<title>Hola, soy Gabriel Escribá</title>
+	<title id="title">Hola, soy Gabriel Escribá</title>
 	<link rel="icon" type="icon/ico" href="images/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<style type="text/css">
-		header {
-			
-		}
-		
 	</style>
+	<script type="text/javascript" src="funciones/funciones.js"></script>
 </head>
 <body>
 	<header class ="header" style="">		
@@ -20,48 +17,51 @@
 		<nav class = "menu">
 			<ol id="olMargin">
 				<li>
-					<a class="link" href="#portafolio">Portafolio</a>
+					<a class="link" href="#portafolio" id="aPortfolio">Portafolio</a>
 				</li>
 				<li>
-					<a class="link" href="#experiencia">Experiencia</a>
+					<a class="link" href="#experiencia" id="aExperience">Experiencia</a>
 				</li>
 				<li>
-					<a class="link" href="#contacto">Trabajemos juntos!</a>
+					<a class="link" href="#contacto" id="aContact">Trabajemos juntos!</a>
+				</li>
+				<li>
+					<a class="link" onclick="cambiarIdioma()" href="#" id="funcionCambioIdioma">ESP/ENG</a>
 				</li>
 			</ol>
 		</nav>	
 	</header>
 	<section class="hero">
-		<h1>
+		<h1 id ="h1HeroDescription">
 			Hola! Soy <strong>Gabriel Escribá</strong><br/><strong>Fullstack designer</strong><br/> Apegado al <strong>lifelong learning</strong>
 		</h1>
 		<!--<img src="images/hero.jpg"alt="Pon la imagen hero aquí" width="300" height="300">-->
 
 	</section>
 	<section id="portafolio" class="portfolio">
-		<h2>
+		<h2 id="h2PortfolioTitle">
 			Portafolio (Proyectos destacados)
 		</h2>
 		<article class="project">
 			<div class="project-details">
-				<h3 class="projectTitle">
+				<h3 class="projectTitle"id="h3projectTitle">
 					Currículum Online
 				</h3>
 				<h6 class="project-course">
 					HTML/CSS 
 				</h6>
-				<p class="project-date">
+				<p class="project-date" id="pProjectDate">
 					<small><strong>Fecha:</strong> 12-03-2020</small>
 				</p>
-				<p>
-					Lo estás viendo ahora mismo! Vive dentro de internet gracias a GitHub Pages y documenta mi aprendizaje en el uso de HTML y CSS</br>
+				<p id="pProjectDescription">
+					Lo estás viendo ahora mismo! Vive dentro de internet gracias a GitHub Pages y documenta mi aprendizaje en el uso de HTML, CSS y algunas funciones básicas de JS</br>
 					Puedes acceder al repositorio <a href="https://github.com/gaescriba/curriculumonline">aquí</a>
 				</p>
 			</div>
 		</article>
 	</section>
 	<section id="experiencia">
-		<h2 class="h2P">
+		<h2 class="h2P" id="h2WorkingExperience">
 			Resumen de mi experiencia laboral
 		</h2>
 		<article>
@@ -72,7 +72,7 @@
 				<h3>
 					everis Centers Temuco, Chile
 				</h3>
-				<a>Una gran empresa que funciona tanto cómo una consulora y cómo una desarrolladora de productos empresariales, dónde la gente tiene un corazón enorme y siempre está dispuesta a enseñarte lo que no sepas</a>
+				<a id="aEverisDescription">Siendo una de las empresas más grandes de IT a nivel global, everis es la primera empresa en la cuál me he desempeñado cómo desarollador, aportando al área de mantenimiento de aplicaciones web</a>
 			</div>
 		</article>
 	</section>

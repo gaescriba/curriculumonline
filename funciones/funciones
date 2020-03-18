@@ -1,0 +1,14 @@
+//Funcion diseñada para cambiar el idioma de la 
+//pagina web, sin necesidad de redirijir, se utiliza
+//innerHTML ya que se trata solo de inyeccion de cadenas
+//de texto nuevas sobre las ya existentes, asi la funcionalidad
+//del HTML y los estilos aplicados no sufriran cambios
+
+//guardamos la variable isEspanhol para poder trabajarla en las funciones
+var isEspanhol = false
+var flagPrimerCambio = false
+function cambiaIdioma(isEspanhol){
+	if(!isEspanhol){
+		doc
+	}
+}
