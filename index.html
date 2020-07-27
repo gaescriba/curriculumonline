@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<title id="title">Hola, soy Gabriel Escribá</title>
 	<link rel="icon" type="icon/ico" href="images/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<style type="text/css">
-	</style>
+	<!--<link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"/>-->
 	<script type="text/javascript" src="funciones/funciones.js"></script>
+	
 </head>
 <body>
 	<header class ="header" style="">		
@@ -35,28 +36,48 @@
 		<h1 id ="h1HeroDescription">
 			Hola! Soy <strong>Gabriel Escribá</strong><br/><strong>Fullstack designer</strong><br/> Apegado al <strong>lifelong learning</strong>
 		</h1>
-		<!--<img src="images/hero.jpg"alt="Pon la imagen hero aquí" width="300" height="300">-->
-<!--
+		<!--<img src="images/profile_photo.jpg"alt="Pon la imagen hero aquí" width="300" height="300">-->
+
 	</section>
 	<section id="portafolio" class="portfolio">
 		<h2 id="h2PortfolioTitle">
 			Portafolio (Proyectos destacados)
 		</h2>
 		<article class="project">
-			<div class="project-details">
-				<h3 class="projectTitle"id="h3projectTitle">
+			<div class="project-details" id="online-portfolio">
+				<h3 class="projectTitle" id="h3portfolioTitle">
 					Currículum Online
 				</h3>
 				<h6 class="project-course">
-					HTML/CSS 
+					HTML/CSS/Responsive Design
 				</h6>
-				<p class="project-date" id="pProjectDate">
-					<small><strong>Fecha:</strong> 12-03-2020</small>
+				<p class="project-date" id="portfolioProjectDate">
+					<small><strong>Fecha:</strong> 27-07-2020</small>
 				</p>
-				<p id="pProjectDescription">
-					Lo estás viendo ahora mismo! Vive dentro de internet gracias a GitHub Pages y documenta mi aprendizaje en el uso de HTML, CSS y algunas funciones básicas de JS</br>
+				<p class="portfolioProjectDescription">
+					Lo estás viendo ahora mismo! Vive dentro de internet gracias a GitHub Pages y documenta mi aprendizaje en el uso de HTML, CSS y algunas funciones básicas de JS, adicionalmente, he incorporado los conocimientos adquiridos en el curso de Responsive Design de Platzi</br>
 					Puedes acceder al repositorio <a href="https://github.com/gaescriba/curriculumonline">aquí</a>
 				</p>
+			</div>
+			<div class="project-details" id="layouts">
+				<h3 class="projectTitle" id="h3layoutsTitle">
+					Layouts
+				</h3>
+				<h6 class="project-course">
+					CSS Grid Layout
+				</h6>
+				<p class="project-date" id="layoutsProjectDate">
+					<small><strong>Fecha:</strong> 24-07-2020</small>
+				</p>
+				<p id="layoutsProjectDescription">
+					Mi proyecto de layouts, es la culminación del curso de CSS Grid Layout de Platzi, en dónde he maquetado distintas páginas, haciendo uso(por supuesto) de elementos de HTML y específicamente, CSS Grid layout, una forma fácil y efectiva de posicionar elementos y aplicar estilos</br>
+				</p>
+				<ol class="ol_layouts">
+					<li>
+						<a href="cssgrid/instagram_layout/instagram_layout.html">Instagram layout</a><br>
+						<a href="cssgrid/pinterest_layout/pinterest_layout.html">Pinterest layout</a>
+					</li>
+				</ol>
 			</div>
 		</article>
 	</section>
@@ -98,6 +119,6 @@
 		<div>
 			
 		</div>
-	</footer> -->
+	</footer> 
 </body>
 </html>
